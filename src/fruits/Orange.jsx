@@ -1,7 +1,7 @@
 function Orange(){
     return (
         <>
-        <h1>Orange</h1>
+        <h1>Orange is fruit</h1>
         </>
     )
 }
