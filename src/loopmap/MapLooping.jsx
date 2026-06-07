@@ -1,11 +1,40 @@
+import User from "./User";
+
 function MapLooping() {
   const userData = [
-    { id: 1, name: "John", age: 30, email: "john@example.com" },
-    { id: 2, name: "Jane", age: 25, email: "jane@example.com" },
-    { id: 3, name: "Bob", age: 35, email: "bob@example.com" },
+    {
+      id: 1,
+      name: "John",
+      age: 30,
+      email: "john@example.com",
+      bgColor: "lightblue",
+    },
+    {
+      id: 2,
+      name: "Jane",
+      age: 25,
+      email: "jane@example.com",
+      bgColor: "lightgreen",
+    },
+    {
+      id: 3,
+      name: "Bob",
+      age: 35,
+      email: "bob@example.com",
+      bgColor: "lightyellow",
+    },
   ];
   return (
     <div>
+      <h1>Reuse component</h1>
+      {userData.map((user) => {
+        return (
+          <div key={user.id}>
+            <User user={user} />
+          </div>
+        );
+      })}
+
       <h1>Map Looping</h1>
       <table border="1" cellPadding="10" cellSpacing="0">
         <thead>
