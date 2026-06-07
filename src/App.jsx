@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Apple } from "./fruits/Apple";
 import Wrapper from "./Wrapper";
+import Input from "./input";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <Input />
       <h3>Count: {count >= 0 ? count : "not set"}</h3>
       <button onClick={handleIncrement}>Increment</button>
       <button onClick={handleDecrement}>Decrement</button>
