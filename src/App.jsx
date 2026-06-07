@@ -1,13 +1,12 @@
-import { Apple } from "./fruits/Apple"
+import { Apple } from "./fruits/Apple";
 
 function App() {
-
   return (
     <>
-    <h1>Welcome to Vite + React</h1>
-    <Apple />
+      <h1>Welcome to Vite + React</h1>
+      <Apple />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
