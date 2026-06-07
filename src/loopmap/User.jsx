@@ -6,7 +6,7 @@ function User({ user }) {
         margin: "10px",
         padding: "10px",
         backgroundColor: user.bgColor,
-        minWidth: "200px",
+        maxWidth: "300px",
       }}
     >
       <p>

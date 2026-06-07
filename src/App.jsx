@@ -7,6 +7,7 @@ import Uncontrolled from "./ControlledAndUnontrolled/Uncontrolled";
 import Checkbox from "./ControlledAndUnontrolled/Checkbox";
 import RadioButton from "./ControlledAndUnontrolled/RadioButton";
 import MapLooping from "./loopmap/MapLooping";
+import Dropdown from "./StopWatch/Dropdown";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <Dropdown />
       <MapLooping />
       <RadioButton />
       <Checkbox />
