@@ -9,9 +9,11 @@ import RadioButton from "./ControlledAndUnontrolled/RadioButton";
 import MapLooping from "./loopmap/MapLooping";
 import Dropdown from "./StopWatch/Dropdown";
 import NestedLoop from "./nestedLoop/NestedLoop";
+import LifeCycle from "./LifeCycle/LifeCycle";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [show, setShow] = useState(true);
   function handleIncrement() {
     setCount(count + 1);
   }
@@ -24,6 +26,9 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      {show && <LifeCycle />}
+      <button onClick={() => setShow(!show)}>Toggle LifeCycle Component</button>
+      <hr />
       <NestedLoop />
       <Dropdown />
       <MapLooping />
