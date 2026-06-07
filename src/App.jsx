@@ -4,6 +4,7 @@ import Wrapper from "./Wrapper";
 import Input from "./Input";
 import { Controlled } from "./ControlledAndUnontrolled/Controlled";
 import Uncontrolled from "./ControlledAndUnontrolled/Uncontrolled";
+import Checkbox from "./ControlledAndUnontrolled/Checkbox";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <Checkbox />
       <Controlled />
       <Uncontrolled />
       <Input />
