@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Apple } from "./fruits/Apple";
 import Wrapper from "./Wrapper";
-import Input from "./input";
+import Input from "./Input";
 import { Controlled } from "./ControlledAndUnontrolled/Controlled";
 import Uncontrolled from "./ControlledAndUnontrolled/Uncontrolled";
 
