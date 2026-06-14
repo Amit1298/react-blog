@@ -17,6 +17,7 @@ import User1 from "./Usetransition/User";
 import PureComponent from "./PureComponent/PureComponent";
 import DerivedState from "./DerivedState/DerivedState";
 import School from "./LiftingState/School";
+import UpdateState from "./UpdateObject/UpdateState";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +34,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <UpdateState />
       <School />
       <DerivedState />
       <PureComponent />
