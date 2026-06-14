@@ -11,6 +11,8 @@ import Dropdown from "./StopWatch/Dropdown";
 import NestedLoop from "./nestedLoop/NestedLoop";
 import LifeCycle from "./LifeCycle/LifeCycle";
 import BootstrapComponent from "./bootstrapcomponent/BootstrapComponent";
+import UserInput from "./forwordRef/UserInput";
+import User from "./UseFormStatus/User";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +29,8 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <User />
+      <UserInput />
       <BootstrapComponent />
       {show && <LifeCycle />}
       <button onClick={() => setShow(!show)}>Toggle LifeCycle Component</button>
