@@ -13,6 +13,8 @@ import LifeCycle from "./LifeCycle/LifeCycle";
 import BootstrapComponent from "./bootstrapcomponent/BootstrapComponent";
 import UserInput from "./forwordRef/UserInput";
 import User from "./UseFormStatus/User";
+import User1 from "./Usetransition/User";
+import PureComponent from "./PureComponent/PureComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +31,8 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <PureComponent />
+      <User1 />
       <User />
       <UserInput />
       <BootstrapComponent />
