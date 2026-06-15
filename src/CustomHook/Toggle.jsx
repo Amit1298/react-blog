@@ -4,6 +4,7 @@ function useToggle(defaultValue) {
   const [value, setValue] = useState(defaultValue);
 
   function toggleValue(val) {
+    console.log("val -->", val);
     if (typeof val !== "boolean") {
       setValue(value);
     } else {
