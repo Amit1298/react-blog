@@ -20,6 +20,7 @@ import School from "./LiftingState/School";
 import UpdateState from "./UpdateObject/UpdateState";
 import StudentFormPage from "./ActionStateForm/StudentFormPage";
 import Collage from "./UseContaxtAPI/Collage";
+import ToggleHeading from "./CustomHook/ToggleHeading";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <ToggleHeading />
       <Collage />
       <StudentFormPage />
       <UpdateState />
