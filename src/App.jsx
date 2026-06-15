@@ -18,6 +18,8 @@ import PureComponent from "./PureComponent/PureComponent";
 import DerivedState from "./DerivedState/DerivedState";
 import School from "./LiftingState/School";
 import UpdateState from "./UpdateObject/UpdateState";
+import StudentFormPage from "./ActionStateForm/StudentFormPage";
+import Collage from "./UseContaxtAPI/Collage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,6 +36,8 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <Collage />
+      <StudentFormPage />
       <UpdateState />
       <School />
       <DerivedState />
