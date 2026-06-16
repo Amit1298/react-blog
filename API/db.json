@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@example.com",
+      "age": 28
+    },
+    {
+      "id": "2",
+      "name": "Priya Singh",
+      "email": "priya@example.com",
+      "age": 24
+    },
+    {
+      "id": "3",
+      "name": "Amit Verma",
+      "email": "amit@example.com",
+      "age": 32
+    },
+    {
+      "name": "amit1",
+      "email": "amit@gmail.com",
+      "age": "29",
+      "id": "bejhw7dlVkI"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Laptop",
+      "price": 55000
+    },
+    {
+      "id": "2",
+      "title": "Mobile",
+      "price": 18000
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
