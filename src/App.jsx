@@ -22,6 +22,9 @@ import StudentFormPage from "./ActionStateForm/StudentFormPage";
 import Collage from "./UseContaxtAPI/Collage";
 import ToggleHeading from "./CustomHook/ToggleHeading";
 import UsersList from "./CURD/UsersList";
+import SignupForm from "./ValidationForm/SignupForm";
+import MultipleInputField from "./ReducerHook/MultipleInputField";
+import ReactRouterMain from "./React-Router/ReactRouterMain";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +41,9 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <ReactRouterMain />
+      <MultipleInputField />
+      <SignupForm />
       <UsersList />
       <ToggleHeading />
       <Collage />
