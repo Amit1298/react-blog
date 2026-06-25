@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, Outlet } from "react-router";
 
 function Collage() {
+  //nested routing
   return (
     <div>
       <nav

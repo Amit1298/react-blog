@@ -25,6 +25,7 @@ import UsersList from "./CURD/UsersList";
 import SignupForm from "./ValidationForm/SignupForm";
 import MultipleInputField from "./ReducerHook/MultipleInputField";
 import ReactRouterMain from "./React-Router/ReactRouterMain";
+import ReduxToolkit from "./redux-toolkit/ReduxToolkit";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,6 +42,7 @@ function App() {
   return (
     <>
       <h1>Welcome to Vite + React</h1>
+      <ReduxToolkit />
       <ReactRouterMain />
       <MultipleInputField />
       <SignupForm />
